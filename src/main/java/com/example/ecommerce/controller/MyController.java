@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MyController {
     @GetMapping("greeting")
     public String test(){
-        return " Welcome to Spring boot";
+        return "Welcome to the Elevatemycode";
     }
 }
